@@ -101,7 +101,7 @@ The site is fully static, so it also runs on these hosts:
 | `assets/images/photos/about-team-*.webp` | About section (8:9) | A photo of you or your workspace |
 | `assets/images/photos/bulk-gifts-*.webp` | Bulk orders banner (square) | Your own gift-set photo |
 | `assets/images/og-image.png` | Social share preview (1200×630) | Can stay, or be regenerated with real photos |
-| `assets/images/logo*.svg`, `favicon*`, `icon-*.png`, `apple-touch-icon.png`, `/favicon.ico` | Brand mark | Replace if the logo changes. The header and footer use an inline copy of the mark (`<symbol id="logo-mark">`) at the top of each HTML file, so update that too. |
+| `assets/images/logo-mark.png` (512px), `logo-mark-96.png` (header/footer), `logo-full.png` / `logo-full-dark.png` (full lockups for light/dark backgrounds), `favicon-*.png`, `icon-*.png`, `apple-touch-icon.png`, `/favicon.ico` | Brand logo | All of these are generated from the original PNGs in `assets/images/brand-source/`. The circular mark is cut out with a transparent background. No SVG conversion was used. |
 
 Photos come in `-480/-960` (or `-640/-1280`, `-720/-1440`) pairs for `srcset`. To convert your own photos, use `cwebp -q 72 in.jpg -o out.webp`.
 
@@ -129,7 +129,7 @@ The lifestyle and service photos are from [Unsplash](https://unsplash.com) under
 
 (Open `https://images.unsplash.com/<id>` to view the source.)
 
-The logo, product mockups, Infiltrators artwork and OG image are original artwork made for Karmyx.
+The Karmyx logo is the company's own artwork. The product mockups, Infiltrators artwork and OG image are original artwork made for this site.
 
 ## Analytics
 
@@ -137,7 +137,7 @@ No tracking ships by default. `index.html` has a commented-out slot for Plausibl
 
 ## Assumptions
 
-- **Brand and colours:** a new original logo (a geometric "K" with a rising arrow). Palette: midnight `#1B1F3B`, saffron `#F5A524`, teal `#2EC4B6`, cream `#FAF7F2`. Fonts are Sora for headings and Inter for body text.
+- **Brand and colours:** the logo is your Karmyx K-circle PNG. Site palette: midnight `#1B1F3B`, saffron `#F5A524`, teal `#2EC4B6`, cream `#FAF7F2`. Fonts are Sora for headings and Inter for body text.
 - **Showcase only:** there are no real products yet. The 12 product cards are sample POD designs (labelled "Sample design"). Their "Enquire" buttons lead to the contact form, and there are no prices or store links. When the store launches, add "View in store" links using `data-config-href="STORE_URL"`.
 - **Delivery promises:** the FAQ and Shipping page use typical POD timelines. Please confirm or adjust these:
   - printing: 2–4 working days
