@@ -11,8 +11,8 @@ window.SITE_CONFIG = {
   // Online store (not live yet; the site is a showcase for now and does not link here)
   STORE_URL: "https://store.karmyx.co.in",
 
-  // Infiltrators game (subdomain being connected)
-  GAME_URL: "https://game.karmyx.co.in",
+  // Infiltrators game (hosted on Render)
+  GAME_URL: "https://www.game.karmyx.co.in",
 
   // Contact
   EMAIL: "karmyxbusiness@gmail.com",
