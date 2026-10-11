@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Night city skyline with masked silhouettes under a red moon">
+  <!-- Original artwork for the Infiltrators game card -->
+  <defs>
+    <linearGradient id="ni" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07081a"/><stop offset=".6" stop-color="#1a1440"/><stop offset="1" stop-color="#3a1640"/>
+    </linearGradient>
+    <radialGradient id="moon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff6b5a"/><stop offset=".7" stop-color="#d7263d"/><stop offset="1" stop-color="#d7263d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#d7263d" stop-opacity=".45"/><stop offset="1" stop-color="#d7263d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1640" stop-opacity="0"/><stop offset="1" stop-color="#07081a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ni)"/>
+  <g fill="#fff" opacity=".7">
+    <circle cx="80" cy="60" r="1.4"/><circle cx="160" cy="120" r="1"/><circle cx="260" cy="40" r="1.2"/><circle cx="420" cy="90" r="1"/>
+    <circle cx="700" cy="50" r="1.5"/><circle cx="620" cy="140" r="1"/><circle cx="740" cy="170" r="1.1"/><circle cx="340" cy="150" r="1"/><circle cx="40" cy="190" r="1"/>
+  </g>
+  <circle cx="560" cy="150" r="190" fill="url(#glow)"/>
+  <circle cx="560" cy="150" r="78" fill="url(#moon)"/>
+  <!-- skyline -->
+  <path fill="#0d0b24" d="M0 330 H40 V250 H90 V300 H120 V210 H170 V290 H200 V260 H240 V320 H280 V190 H300 V170 H320 V190 H340 V300 H380 V240 H430 V310 H470 V220 H520 V280 H560 V200 H610 V300 H650 V250 H700 V290 H740 V230 H800 V500 H0Z"/>
+  <g fill="#F5A524" opacity=".75">
+    <rect x="130" y="225" width="8" height="10"/><rect x="150" y="250" width="8" height="10"/><rect x="292" y="210" width="6" height="9"/>
+    <rect x="482" y="240" width="8" height="10"/><rect x="500" y="262" width="8" height="10"/><rect x="574" y="220" width="8" height="10"/><rect x="752" y="250" width="8" height="10"/>
+  </g>
+  <!-- three silhouettes, centre one masked -->
+  <g fill="#050512">
+    <path d="M150 500 V420 Q150 370 200 362 Q180 345 182 318 Q186 284 220 284 Q254 284 258 318 Q260 345 240 362 Q290 370 290 420 V500Z"/>
+    <path d="M510 500 V420 Q510 370 560 362 Q540 345 542 318 Q546 284 580 284 Q614 284 618 318 Q620 345 600 362 Q650 370 650 420 V500Z"/>
+    <path d="M300 500 V400 Q300 336 370 324 Q340 300 342 262 Q346 214 400 214 Q454 214 458 262 Q460 300 430 324 Q500 336 500 400 V500Z"/>
+  </g>
+  <!-- mask on the centre figure -->
+  <path d="M356 252 Q400 236 444 252 Q448 278 426 284 Q412 286 400 276 Q388 286 374 284 Q352 278 356 252Z" fill="#d7263d"/>
+  <ellipse cx="380" cy="262" rx="10" ry="6" fill="#050512"/>
+  <ellipse cx="420" cy="262" rx="10" ry="6" fill="#050512"/>
+  <!-- glowing eyes on the side figures -->
+  <g fill="#2EC4B6"><circle cx="210" cy="318" r="3"/><circle cx="230" cy="318" r="3"/><circle cx="570" cy="318" r="3"/><circle cx="590" cy="318" r="3"/></g>
+  <rect y="380" width="800" height="120" fill="url(#fog)"/>
+</svg>

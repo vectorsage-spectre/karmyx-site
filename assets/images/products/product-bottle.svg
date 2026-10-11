@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated steel water bottle mockup">
+  <!-- Placeholder mockup: replace with a real product photo -->
+  <defs>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="360" rx="70" ry="8.4" fill="#1B1F3B" opacity=".18" filter="url(#blur)"/>
+  <rect x="172" y="34" width="56" height="36" rx="10" fill="#1B1F3B"/>
+  <rect x="180" y="66" width="40" height="18" fill="#3C405E"/>
+  <path d="M150 112 Q150 84 200 84 Q250 84 250 112 V330 Q250 350 230 350 H170 Q150 350 150 330Z" fill="#F5A524"/>
+  <path d="M150 112 Q150 84 200 84 Q250 84 250 112 V330 Q250 350 230 350 H170 Q150 350 150 330Z" fill="url(#shade)"/>
+  <rect x="162" y="110" width="10" height="220" rx="5" fill="#fff" opacity=".25"/>
+  <g>
+    <clipPath id="b200216"><circle cx="200" cy="216" r="36"/></clipPath>
+    <circle cx="200" cy="216" r="36" fill="#1B1F3B"/>
+    <g clip-path="url(#b200216)">
+      <circle cx="200" cy="221.4" r="16.2" fill="#F5A524"/>
+      <path d="M164 228.6 Q185.6 214.2 200 226.8 T236 223.2 V252 H164Z" fill="#2EC4B6"/>
+      <path d="M164 237.6 Q189.2 226.8 207.2 237.6 T236 234.0 V252 H164Z" fill="#2EC4B6" opacity=".6"/>
+    </g>
+    <circle cx="200" cy="216" r="36" fill="none" stroke="#FAF7F2" stroke-opacity=".9" stroke-width="1.5"/>
+  </g>
+  <text x="200" y="290" text-anchor="middle" font-family="Sora,Arial,sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#1B1F3B">STAY KIND</text>
+</svg>

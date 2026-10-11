@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated hardcover notebook mockup">
+  <!-- Placeholder mockup: replace with a real product photo -->
+  <defs>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <ellipse cx="205" cy="352" rx="115" ry="13.799999999999999" fill="#1B1F3B" opacity=".18" filter="url(#blur)"/>
+  <rect x="112" y="60" width="190" height="280" rx="12" fill="#F5A524" transform="rotate(4 207 200)"/>
+  <rect x="112" y="60" width="190" height="280" rx="12" fill="url(#shade)" transform="rotate(4 207 200)"/>
+  <g transform="rotate(4 207 200)">
+    <rect x="120" y="60" width="10" height="280" fill="#d98c12"/>
+    <rect x="280" y="60" width="12" height="280" fill="#1B1F3B" opacity=".9"/>
+    <text x="205" y="300" text-anchor="middle" font-family="Sora,Arial,sans-serif" font-weight="700" font-size="13" letter-spacing="1.5" fill="#1B1F3B">IDEAS &amp; ACTIONS</text>
+  </g>
+  <g>
+    <clipPath id="b205190"><circle cx="205" cy="190" r="50"/></clipPath>
+    <circle cx="205" cy="190" r="50" fill="#1B1F3B"/>
+    <g clip-path="url(#b205190)">
+      <circle cx="205" cy="197.5" r="22.5" fill="#F5A524"/>
+      <path d="M155 207.5 Q185.0 187.5 205 205.0 T255 200.0 V240 H155Z" fill="#2EC4B6"/>
+      <path d="M155 220.0 Q190.0 205.0 215.0 220.0 T255 215.0 V240 H155Z" fill="#2EC4B6" opacity=".6"/>
+    </g>
+    <circle cx="205" cy="190" r="50" fill="none" stroke="#FAF7F2" stroke-opacity=".9" stroke-width="2.0"/>
+  </g>
+</svg>

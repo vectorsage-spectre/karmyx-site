@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated baseball cap mockup">
+  <!-- Placeholder mockup: replace with a real product photo -->
+  <defs>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="330" rx="140" ry="16.8" fill="#1B1F3B" opacity=".18" filter="url(#blur)"/>
+  <path d="M90 250 Q90 120 200 116 Q310 120 310 250 Z" fill="#F5A524"/>
+  <path d="M90 250 Q90 120 200 116 Q310 120 310 250 Z" fill="url(#shade)"/>
+  <path d="M200 116 Q170 180 172 250 M200 116 Q230 180 228 250" fill="none" stroke="#d98c12" stroke-width="3"/>
+  <circle cx="200" cy="118" r="8" fill="#d98c12"/>
+  <path d="M84 250 Q200 236 316 250 Q360 262 352 290 Q260 268 200 270 Q120 272 70 290 Q60 262 84 250Z" fill="#1B1F3B"/>
+  <g>
+    <clipPath id="b200196"><circle cx="200" cy="196" r="30"/></clipPath>
+    <circle cx="200" cy="196" r="30" fill="#1B1F3B"/>
+    <g clip-path="url(#b200196)">
+      <circle cx="200" cy="200.5" r="13.5" fill="#F5A524"/>
+      <path d="M170 206.5 Q188.0 194.5 200 205.0 T230 202.0 V226 H170Z" fill="#2EC4B6"/>
+      <path d="M170 214.0 Q191.0 205.0 206.0 214.0 T230 211.0 V226 H170Z" fill="#2EC4B6" opacity=".6"/>
+    </g>
+    <circle cx="200" cy="196" r="30" fill="none" stroke="#FAF7F2" stroke-opacity=".9" stroke-width="1.5"/>
+  </g>
+</svg>

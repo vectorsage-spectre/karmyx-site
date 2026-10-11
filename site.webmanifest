@@ -1,0 +1,14 @@
+{
+  "name": "Karmyx",
+  "short_name": "Karmyx",
+  "description": "Personalised merchandise, original designs and software, made with care in India.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1B1F3B",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

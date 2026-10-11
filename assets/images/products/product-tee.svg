@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated t-shirt mockup with a rising sun print">
+  <!-- Placeholder mockup: replace with a real product photo -->
+  <defs>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="352" rx="120" ry="14.399999999999999" fill="#1B1F3B" opacity=".18" filter="url(#blur)"/>
+  <path d="M128 78 L170 62 Q200 84 230 62 L272 78 L334 130 L300 178 L276 162 L276 334 Q200 346 124 334 L124 162 L100 178 L66 130 Z" fill="#FAF7F2" stroke="#1B1F3B" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M128 78 L170 62 Q200 84 230 62 L272 78 L334 130 L300 178 L276 162 L276 334 Q200 346 124 334 L124 162 L100 178 L66 130 Z" fill="url(#shade)"/>
+  <path d="M170 62 Q200 98 230 62" fill="none" stroke="#1B1F3B" stroke-opacity=".18" stroke-width="5"/>
+  <g>
+    <clipPath id="b200200"><circle cx="200" cy="200" r="52"/></clipPath>
+    <circle cx="200" cy="200" r="52" fill="#1B1F3B"/>
+    <g clip-path="url(#b200200)">
+      <circle cx="200" cy="207.8" r="23.400000000000002" fill="#F5A524"/>
+      <path d="M148 218.2 Q179.2 197.4 200 215.6 T252 210.4 V252 H148Z" fill="#2EC4B6"/>
+      <path d="M148 231.2 Q184.4 215.6 210.4 231.2 T252 226.0 V252 H148Z" fill="#2EC4B6" opacity=".6"/>
+    </g>
+    <circle cx="200" cy="200" r="52" fill="none" stroke="#FAF7F2" stroke-opacity=".9" stroke-width="2.08"/>
+  </g>
+  <text x="200" y="285" text-anchor="middle" font-family="Sora,Arial,sans-serif" font-weight="700" font-size="17" letter-spacing="3" fill="#1B1F3B">DO GOOD WORK</text>
+</svg>

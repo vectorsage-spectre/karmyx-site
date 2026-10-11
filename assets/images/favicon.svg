@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Karmyx mark">
+  <defs>
+    <linearGradient id="km-g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5A524"/>
+      <stop offset="1" stop-color="#F57E24"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#1B1F3B"/>
+  <!-- stem -->
+  <rect x="15" y="14" width="8" height="36" rx="4" fill="#FAF7F2"/>
+  <!-- rising arm (arrow) -->
+  <path d="M23 36 L41 18" stroke="url(#km-g)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M33 15 H45 V27" stroke="url(#km-g)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- grounded leg -->
+  <path d="M30 37 L44 50" stroke="#2EC4B6" stroke-width="8" stroke-linecap="round" fill="none"/>
+</svg>
