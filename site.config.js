@@ -16,7 +16,7 @@ window.SITE_CONFIG = {
 
   // Contact
   EMAIL: "karmyxbusiness@gmail.com",
-  PHONE: "+91 63976 04558",
+  PHONE: "+91\u00A063976\u00A004558", // \u00A0 = non-breaking space
   ADDRESS: "Rudrapur, Uttarakhand, India",
 
   // Contact form endpoint (e.g. "https://formspree.io/f/xxxxxxx").
