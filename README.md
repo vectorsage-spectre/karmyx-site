@@ -37,12 +37,12 @@ Open `site.config.js`:
 
 | Key | What it does |
 | --- | --- |
-| `STORE_URL` | Every "Shop", "View in store" and "Explore the store" button |
+| `STORE_URL` | Reserved for when the online store launches. The site is a showcase for now and doesn't link to a store. |
 | `GAME_URL` | The Infiltrators "Play now" button (`https://game.karmyx.co.in`) |
 | `EMAIL`, `PHONE`, `ADDRESS` | Contact section, FAQ, footer |
 | `FORM_ENDPOINT` | Contact form target, e.g. a [Formspree](https://formspree.io) URL. When empty, the form opens the visitor's email app with the message pre-filled (`mailto:`). |
 | `SOCIAL.*` | Footer social icons. An empty value hides that icon. |
-| `LEGAL_NAME_PLACEHOLDER`, `GSTIN_PLACEHOLDER` | Shown in the footer **only when filled in**. Fill these only after incorporation is complete. |
+| `LEGAL_NAME_PLACEHOLDER`, `GSTIN_PLACEHOLDER` | Shown in the footer when filled in. Currently `Karmyx (OPC) Pvt. Ltd.` and `xxx`. Replace `xxx` with the real GSTIN once issued, or set it to `""` to hide it. |
 
 Each HTML file also keeps a real default `href`, so links still work if JavaScript is off.
 
@@ -138,7 +138,7 @@ No tracking ships by default. `index.html` has a commented-out slot for Plausibl
 ## Assumptions
 
 - **Brand and colours:** a new original logo (a geometric "K" with a rising arrow). Palette: midnight `#1B1F3B`, saffron `#F5A524`, teal `#2EC4B6`, cream `#FAF7F2`. Fonts are Sora for headings and Inter for body text.
-- **Prices:** shown as `from ₹___` placeholders until real prices are set in the store.
+- **Showcase only:** there are no real products yet. The 12 product cards are sample POD designs (labelled "Sample design"). Their "Enquire" buttons lead to the contact form, and there are no prices or store links. When the store launches, add "View in store" links using `data-config-href="STORE_URL"`.
 - **Delivery promises:** the FAQ and Shipping page use typical POD timelines. Please confirm or adjust these:
   - printing: 2–4 working days
   - delivery: 3–7 working days
@@ -146,8 +146,8 @@ No tracking ships by default. `index.html` has a commented-out slot for Plausibl
   - damage reporting: within 7 days
   - refunds: within 5–7 working days
 - **Exchanges:** one size exchange for non-personalised items.
-- **Phone and address:** show "Coming soon" and "India" until they are set in `site.config.js`.
-- **Courts:** the Terms say jurisdiction is "[city to be confirmed]". Fill this in.
+- **Contact:** +91 63976 04558, karmyxbusiness@gmail.com, Rudrapur, Uttarakhand.
+- **Legal entity:** Karmyx (OPC) Pvt. Ltd. Courts: Rudrapur, Uttarakhand.
 - **Grievance contact:** the Privacy Policy uses the company email as the grievance contact.
 - **Legal pages:** these are drafts and should be reviewed before launch, ideally by a professional.
 - **Roadmap:** the "What's next" strip shows traditional foods (mangodi) as "Coming soon". Financial services are intentionally not mentioned.

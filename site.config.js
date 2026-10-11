@@ -8,7 +8,7 @@
 window.SITE_CONFIG = {
   SITE_URL: "https://karmyx.co.in",
 
-  // Online store (placeholder until the store is live)
+  // Online store (not live yet; the site is a showcase for now and does not link here)
   STORE_URL: "https://store.karmyx.co.in",
 
   // Infiltrators game (subdomain being connected)
@@ -16,8 +16,8 @@ window.SITE_CONFIG = {
 
   // Contact
   EMAIL: "karmyxbusiness@gmail.com",
-  PHONE: "",   // e.g. "+91 98765 43210" (leave empty to show "Phone: coming soon")
-  ADDRESS: "", // e.g. "Jaipur, Rajasthan, India" (leave empty to show "India")
+  PHONE: "+91 63976 04558",
+  ADDRESS: "Rudrapur, Uttarakhand, India",
 
   // Contact form endpoint (e.g. "https://formspree.io/f/xxxxxxx").
   // Leave empty to fall back to opening the visitor's email app (mailto:).
@@ -33,6 +33,6 @@ window.SITE_CONFIG = {
 
   // Legal details: incorporation is in progress.
   // Rendered in the footer ONLY when filled in. Do not guess these.
-  LEGAL_NAME_PLACEHOLDER: "", // e.g. "Karmyx (OPC) Private Limited"
-  GSTIN_PLACEHOLDER: "",      // e.g. "08ABCDE1234F1Z5"
+  LEGAL_NAME_PLACEHOLDER: "Karmyx (OPC) Pvt. Ltd.",
+  GSTIN_PLACEHOLDER: "xxx",   // replace with the real GSTIN once issued
 };

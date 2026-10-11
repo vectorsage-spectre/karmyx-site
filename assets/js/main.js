@@ -178,6 +178,7 @@
       });
     });
     dialog.addEventListener("click", function (e) {
+      if (e.target.closest("a[data-close]")) lastTrigger = null; // let the link navigate instead of refocusing the card
       if (e.target === dialog || e.target.closest("[data-close]")) dialog.close();
     });
     dialog.addEventListener("close", function () { if (lastTrigger) lastTrigger.focus(); });
