@@ -38,7 +38,7 @@ Open `site.config.js`:
 | Key | What it does |
 | --- | --- |
 | `STORE_URL` | Reserved for when the online store launches. The site is a showcase for now and doesn't link to a store. |
-| `GAME_URL` | The Infiltrators "Play now" button (`https://www.game.karmyx.co.in`) |
+| `GAME_URL` | The Mafia Game "Play now" button (`https://www.game.karmyx.co.in`) |
 | `EMAIL`, `PHONE`, `ADDRESS` | Contact section, FAQ, footer |
 | `FORM_ENDPOINT` | Contact form target, e.g. a [Formspree](https://formspree.io) URL. When empty, the form opens the visitor's email app with the message pre-filled (`mailto:`). |
 | `SOCIAL.*` | Footer social icons. An empty value hides that icon. |
@@ -81,7 +81,7 @@ Before a custom domain is connected, the preview URL is https://vectorsage-spect
 
 ### The `game` subdomain
 
-Infiltrators is hosted separately on Render and lives at `https://www.game.karmyx.co.in` (GoDaddy CNAME `www.game` → `mafia-game-itdg.onrender.com`). The bare `game.karmyx.co.in` isn't set up. To make it work too, add a CNAME `game` → the same Render host, and add `game.karmyx.co.in` as a custom domain in Render. If the game's URL ever changes, update `GAME_URL` in `site.config.js`.
+Mafia Game is hosted separately on Render and lives at `https://www.game.karmyx.co.in` (GoDaddy CNAME `www.game` → `mafia-game-itdg.onrender.com`). The bare `game.karmyx.co.in` isn't set up. To make it work too, add a CNAME `game` → the same Render host, and add `game.karmyx.co.in` as a custom domain in Render. If the game's URL ever changes, update `GAME_URL` in `site.config.js`.
 
 ### Other hosts
 
@@ -129,7 +129,7 @@ The lifestyle and service photos are from [Unsplash](https://unsplash.com) under
 
 (Open `https://images.unsplash.com/<id>` to view the source.)
 
-The Karmyx logo is the company's own artwork. The product mockups, Infiltrators artwork and OG image are original artwork made for this site.
+The Karmyx logo is the company's own artwork. The product mockups, Mafia Game artwork and OG image are original artwork made for this site.
 
 ## Analytics
 

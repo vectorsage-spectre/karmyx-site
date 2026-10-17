@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Night city skyline with masked silhouettes under a red moon">
-  <!-- Original artwork for the Infiltrators game card -->
+  <!-- Original artwork for the Mafia Game card -->
   <defs>
     <linearGradient id="ni" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#07081a"/><stop offset=".6" stop-color="#1a1440"/><stop offset="1" stop-color="#3a1640"/>
