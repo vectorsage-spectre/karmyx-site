@@ -3,48 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Karmyx | Personalised merchandise, original designs &amp; software from India</title>
-  <meta name="description" content="Karmyx makes print-on-demand personalised merchandise (tees, hoodies, mugs, gifts), original digital designs, and websites, apps and AI tools. Made on demand, shipped across India.">
+  <title>Karmyx | Oversized streetwear, printed to order in India</title>
+  <meta name="description" content="Karmyx is an Indian streetwear label. Drop 01: the Mentalist heavyweight oversized tee in 16 colours and the Origin jersey. Printed to order, shipped across India.">
   <link rel="canonical" href="https://karmyx.co.in/">
-  <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0E1124" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#1A1030">
 
-  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Karmyx">
-  <meta property="og:title" content="Karmyx | Good work, done well">
-  <meta property="og:description" content="Personalised merchandise, original designs and software, made with care in India.">
+  <meta property="og:title" content="Karmyx | Drop 01 is live">
+  <meta property="og:description" content="Mentalist in 16 colours. Origin in white. Oversized, printed to order, shipped across India.">
   <meta property="og:url" content="https://karmyx.co.in/">
   <meta property="og:image" content="https://karmyx.co.in/assets/images/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_IN">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Karmyx | Good work, done well">
-  <meta name="twitter:description" content="Personalised merchandise, original designs and software, made with care in India.">
-  <meta name="twitter:image" content="https://karmyx.co.in/assets/images/og-image.png">
 
-  <!-- Icons -->
   <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/images/favicon-16.png" sizes="16x16" type="image/png">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
 
-  <!-- Theme before paint (avoids a flash of the wrong theme) -->
-  <script>
-    try { var t = localStorage.getItem("karmyx-theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
-  </script>
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"></noscript>
-
-  <link rel="preload" href="assets/images/products/product-tee.svg" as="image">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+  <link rel="preload" href="assets/images/drop01/mentalist-black-900.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="assets/css/styles.css">
 
-  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,64 +40,36 @@
         "name": "Karmyx",
         "url": "https://karmyx.co.in/",
         "logo": "https://karmyx.co.in/assets/images/icon-512.png",
-        "legalName": "Karmyx (OPC) Pvt. Ltd.",
         "email": "karmyxbusiness@gmail.com",
         "telephone": "+91-6397604558",
-        "description": "Print-on-demand personalised merchandise, original digital designs, and software and online services from India.",
+        "description": "Indian streetwear label. Oversized tees and jerseys, printed to order.",
         "areaServed": "IN",
-        "address": { "@type": "PostalAddress", "addressLocality": "Rudrapur", "addressRegion": "Uttarakhand", "addressCountry": "IN" }
+        "address": { "@type": "PostalAddress", "addressLocality": "Rudrapur", "addressRegion": "Uttarakhand", "addressCountry": "IN" },
+        "sameAs": ["https://shop.karmyx.co.in/"]
       },
       {
-        "@type": "WebSite",
-        "@id": "https://karmyx.co.in/#website",
-        "url": "https://karmyx.co.in/",
-        "name": "Karmyx",
-        "inLanguage": "en-IN",
-        "publisher": { "@id": "https://karmyx.co.in/#organization" }
+        "@type": "Product",
+        "name": "Mentalist Oversized T-Shirt",
+        "brand": { "@type": "Brand", "name": "Karmyx" },
+        "image": "https://karmyx.co.in/assets/images/drop01/mentalist-black-900.webp",
+        "description": "240 GSM heavyweight cotton oversized tee with a spray-paint Mentalist graphic on the back. Unisex, 16 colours.",
+        "offers": { "@type": "Offer", "price": "999", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://shop.karmyx.co.in/products/unisex-oversized-classic-t-shirt" }
+      },
+      {
+        "@type": "Product",
+        "name": "Karmyx Origin Oversized Jersey",
+        "brand": { "@type": "Brand", "name": "Karmyx" },
+        "image": "https://karmyx.co.in/assets/images/drop01/origin-front-900.webp",
+        "description": "White oversized jersey with the Karmyx mark at the chest. 240 GSM, unisex.",
+        "offers": { "@type": "Offer", "price": "599", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://shop.karmyx.co.in/products/unisex-oversized-jersey" }
       }
     ]
   }
   </script>
-
-  <!--
-    OPTIONAL ANALYTICS (disabled by default — no tracking ships with this site).
-    To enable, uncomment ONE of the snippets below and add your ID/domain,
-    then mention it in privacy.html.
-
-    Plausible:
-    <script defer data-domain="karmyx.co.in" src="https://plausible.io/js/script.js"></script>
-
-    Google Analytics 4:
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
-  -->
 </head>
 <body>
-  <!-- Icon sprite -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
-    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
-    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
-    <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
-    <symbol id="i-pen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
-    <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
-    <symbol id="i-sliders" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
-    <symbol id="i-printer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></symbol>
-    <symbol id="i-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v9h14v-9M12 8v13M12 8S10.5 3 8 4s0 4 4 4zm0 0s1.5-5 4-4 0 4-4 4z"/></symbol>
-    <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
-    <symbol id="i-bot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 14h.01M15 14h.01M2 13v3M22 13v3"/><circle cx="12" cy="3" r="1"/></symbol>
-    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.5L22 8H6"/></symbol>
-    <symbol id="i-megaphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a2 2 0 0 0 2 2h2l5 4V5L7 9H5a2 2 0 0 0-2 2zM16 8a5 5 0 0 1 0 8M19 5a9 9 0 0 1 0 14"/></symbol>
-    <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol>
-    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.6-9 9-9 9z"/></symbol>
-    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
-    <symbol id="i-mountain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 20 6-10 4 6 3-4 5 8z"/><path d="M14 4h4v3h-4"/><path d="M14 4v6"/></symbol>
-    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
-    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
-    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
-    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-4-6"/></symbol>
-    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-    <symbol id="i-mask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8c3-2 15-2 18 0 0 6-3 9-6 9-1.5 0-2-1.5-3-1.5S10.5 17 9 17c-3 0-6-3-6-9z"/><path d="M7.5 11h2M14.5 11h2"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
     <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
     <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.6 4.77 6v5.45h-4v-4.8c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.88h-4z"/></symbol>
     <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M17.8 3h3.1l-6.8 7.7 8 10.3h-6.2l-4.9-6.3L5.4 21H2.3l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></symbol>
@@ -121,664 +78,234 @@
 
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- ===================== Header ===================== -->
   <header class="site-header">
-    <div class="container header-inner">
+    <div class="wrap header-inner">
       <a class="brand" href="./" aria-label="Karmyx home">
-        <img src="assets/images/logo-mark-96.png" alt="" width="38" height="38">
-        <span class="brand-name">Karmyx</span>
+        <img src="assets/images/logo-mark-96.png" alt="" width="34" height="34">
+        <span>Karmyx</span>
       </a>
-
-      <nav class="primary-nav" id="primary-nav" aria-label="Main">
-        <ul class="nav-list">
-          <li><a href="#shop">Designs</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#how-it-works">How it works</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#play">Play</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav class="nav" id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#mentalist">Mentalist</a></li>
+          <li><a href="#origin">Origin</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#play">Game</a></li>
+          <li><a href="#faq">Help</a></li>
         </ul>
-        <a class="btn btn--primary nav-cta-mobile" href="#contact">Get in touch<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </nav>
-
-      <div class="header-actions">
-        <button class="icon-btn theme-toggle" type="button" aria-label="Switch theme">
-          <svg class="icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
-          <svg class="icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
-        </button>
-        <a class="btn btn--primary header-cta" href="#contact">Get in touch</a>
-        <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
-          <span class="bars" aria-hidden="true"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span>
-        </button>
-      </div>
+      <a class="btn btn--shop" href="https://shop.karmyx.co.in" data-config-href="STORE_URL"><svg aria-hidden="true"><use href="#i-bag"/></svg>Shop</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav"><span class="visually-hidden">Menu</span><span class="bars" aria-hidden="true"></span></button>
     </div>
   </header>
 
   <main id="main">
-    <!-- ===================== Hero ===================== -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero-grid">
-        <div class="hero-copy hero-enter">
-          <p class="hero-kicker"><span class="dot">Soon</span> Our online store is launching soon</p>
-          <h1 id="hero-title">Make it <span class="hl">yours.</span> Made with care in India.</h1>
-          <p class="hero-sub">Karmyx creates personalised tees, hoodies, mugs and gifts printed on demand, plus original digital designs and the software that helps small businesses grow. Honest work, done well.</p>
+    <!-- Hero: the colour wall -->
+    <section class="hero" id="mentalist" aria-labelledby="hero-title" style="--tee:#262626">
+      <div class="wrap hero-grid">
+        <div class="hero-head">
+          <p class="sticker">Drop 01 is live</p>
+          <h1 id="hero-title" class="display">Read the room. Wear the mind.</h1>
+          <p class="hero-sub">The Mentalist oversized tee. 240 GSM heavyweight cotton, spray-paint graphic on the back, a small mark on the chest. Pick your colour.</p>
+
+        </div>
+        <figure class="hero-tee">
+          <div class="tee-glow" aria-hidden="true"></div>
+          <img id="tee-img" src="assets/images/drop01/mentalist-black-900.webp" srcset="assets/images/drop01/mentalist-black-480.webp 480w, assets/images/drop01/mentalist-black-900.webp 600w" sizes="(min-width: 960px) 46vw, 92vw" width="600" height="605" alt="Mentalist oversized tee in Black, back view with the blue and yellow spray-paint Mentalist graphic" fetchpriority="high">
+          <figcaption>Back print. Small Mentalist mark on the left chest.</figcaption>
+        </figure>
+        <div class="hero-buy">
+          <fieldset class="picker">
+            <legend><span class="picker-name" aria-live="polite">Black</span><span class="picker-count">16 colours, ₹999</span></legend>
+            <div class="swatches" role="radiogroup" aria-label="Mentalist colour">
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#F2F5F8" data-name="White" data-slug="white" data-variant="67272717828269"><span class="visually-hidden">White</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="true" style="--c:#262626" data-name="Black" data-slug="black" data-variant="67272718024877"><span class="visually-hidden">Black</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#161F28" data-name="Navy Blue" data-slug="navy-blue" data-variant="67272718221485"><span class="visually-hidden">Navy Blue</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#AAACB0" data-name="Grey Melange" data-slug="grey-melange" data-variant="67272718418093"><span class="visually-hidden">Grey Melange</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#1D3F28" data-name="Bottle Green" data-slug="bottle-green" data-variant="67272718614701"><span class="visually-hidden">Bottle Green</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#262B53" data-name="Royal Blue" data-slug="royal-blue" data-variant="67272718811309"><span class="visually-hidden">Royal Blue</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#841616" data-name="Red" data-slug="red" data-variant="67272719007917"><span class="visually-hidden">Red</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#35161A" data-name="Maroon" data-slug="maroon" data-variant="67272719204525"><span class="visually-hidden">Maroon</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#34223D" data-name="Purple" data-slug="purple" data-variant="67272719401133"><span class="visually-hidden">Purple</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#D89216" data-name="Golden Yellow" data-slug="golden-yellow" data-variant="67272719597741"><span class="visually-hidden">Golden Yellow</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#1E373B" data-name="Petrol Blue" data-slug="petrol-blue" data-variant="67272719794349"><span class="visually-hidden">Petrol Blue</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#33321E" data-name="Olive Green" data-slug="olive-green" data-variant="67272719990957"><span class="visually-hidden">Olive Green</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#A17B20" data-name="Mustard Yellow" data-slug="mustard-yellow" data-variant="67272720187565"><span class="visually-hidden">Mustard Yellow</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#D9B8C8" data-name="Light Baby Pink" data-slug="light-baby-pink" data-variant="67272720384173"><span class="visually-hidden">Light Baby Pink</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#C1B6D7" data-name="Lavender" data-slug="lavender" data-variant="67272720580781"><span class="visually-hidden">Lavender</span></button>
+              <button type="button" class="swatch" role="radio" aria-checked="false" style="--c:#9AD9CD" data-name="Mint" data-slug="mint" data-variant="67272720777389"><span class="visually-hidden">Mint</span></button>
+            </div>
+          </fieldset>
+
           <div class="hero-ctas">
-            <a class="btn btn--primary" href="#shop">Explore designs<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-            <a class="btn btn--ghost" href="#services">Work with us</a>
+            <a class="btn btn--primary" id="shop-colour" href="https://shop.karmyx.co.in/products/unisex-oversized-classic-t-shirt?variant=67272718024877"><span>Shop Mentalist in <span class="cta-colour">Black</span></span></a>
+            <a class="btn btn--quiet" href="#drop">See all of Drop 01</a>
           </div>
-          <ul class="trust-chips">
-            <li class="chip"><svg aria-hidden="true"><use href="#i-printer"/></svg>Made on demand</li>
-            <li class="chip"><svg aria-hidden="true"><use href="#i-truck"/></svg>Ships across India</li>
-            <li class="chip"><svg aria-hidden="true"><use href="#i-pen"/></svg>Original designs</li>
-            <li class="chip"><svg aria-hidden="true"><use href="#i-sliders"/></svg>Custom orders welcome</li>
-          </ul>
         </div>
 
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-stage"></div>
-          <div class="hero-item hero-item--hoodie" data-depth="0.6"><img src="assets/images/products/product-hoodie.svg" alt="" width="400" height="400"></div>
-          <div class="hero-item hero-item--mug" data-depth="0.9"><img src="assets/images/products/product-mug.svg" alt="" width="400" height="400"></div>
-          <div class="hero-item hero-item--tee" data-depth="0.35"><img src="assets/images/products/product-tee.svg" alt="" width="400" height="400" fetchpriority="high"></div>
-          <div class="hero-item hero-item--tote" data-depth="1.1"><img src="assets/images/products/product-tote.svg" alt="" width="400" height="400"></div>
-          <div class="hero-item hero-item--notebook" data-depth="0.8"><img src="assets/images/products/product-notebook.svg" alt="" width="400" height="400"></div>
-          <div class="hero-badge"><span class="pulse"></span>Printed fresh for every order</div>
+      </div>
+      <p class="hero-word" aria-hidden="true">Mentalist</p>
+    </section>
+
+    <!-- Drop 01 -->
+    <section class="drop" id="drop" aria-labelledby="drop-title">
+      <div class="wrap">
+        <h2 id="drop-title" class="display display--md">Drop 01</h2>
+        <p class="drop-intro">Two pieces to start. Both oversized, both unisex, both printed only after you order.</p>
+
+        <div class="drop-grid">
+          <article class="piece piece--mentalist" aria-labelledby="p-mentalist">
+            <div class="piece-media">
+              <img src="assets/images/drop01/mentalist-maroon-900.webp" srcset="assets/images/drop01/mentalist-maroon-480.webp 480w, assets/images/drop01/mentalist-maroon-900.webp 600w" sizes="(min-width: 960px) 34vw, 80vw" width="600" height="605" alt="Mentalist oversized tee in Maroon, back view" loading="lazy" class="piece-back">
+              <img src="assets/images/drop01/mentalist-mint-480.webp" width="480" height="484" alt="Mentalist oversized tee in Mint, back view" loading="lazy" class="piece-side">
+            </div>
+            <div class="piece-body">
+              <h3 id="p-mentalist">Mentalist</h3>
+              <p class="price">₹999</p>
+              <p>For the ones who see what others miss. A silhouette in electric blue and sunset yellow, sprayed across the back of a thick 100% cotton tee.</p>
+              <ul class="specs">
+                <li>240 GSM cotton</li><li>Drop shoulders</li><li>16 colours</li><li>XS to XXL</li>
+              </ul>
+              <a class="btn btn--primary" href="https://shop.karmyx.co.in/products/unisex-oversized-classic-t-shirt">Shop Mentalist</a>
+            </div>
+          </article>
+
+          <article class="piece piece--origin" id="origin" aria-labelledby="p-origin">
+            <div class="piece-media">
+              <img src="assets/images/drop01/origin-front-900.webp" srcset="assets/images/drop01/origin-front-480.webp 480w, assets/images/drop01/origin-front-900.webp 600w" sizes="(min-width: 960px) 30vw, 80vw" width="604" height="564" alt="Karmyx Origin oversized jersey in white with the Karmyx logo at the chest" loading="lazy">
+            </div>
+            <div class="piece-body">
+              <h3 id="p-origin">Origin</h3>
+              <p class="price">₹599</p>
+              <p><em>Do the work. Trust the arc.</em> Our mark, worn quietly at the chest on a clean white jersey. Light enough for an Indian summer.</p>
+              <ul class="specs">
+                <li>240 GSM jersey</li><li>Relaxed fit</li><li>White</li><li>XS to XXL</li>
+              </ul>
+              <a class="btn btn--ink" href="https://shop.karmyx.co.in/products/unisex-oversized-jersey">Shop Origin</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===================== Products ===================== -->
-    <section class="section section--alt" id="shop" aria-labelledby="shop-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Sample designs</p>
-          <h2 id="shop-title">Everyday things, made personal</h2>
-          <p>A preview of the kind of products and designs we make. Our online store is launching soon. Until then, tell us what you like and we'll make it for you, printed on demand so nothing is wasted.</p>
-        </div>
-
-        <div class="filters reveal" role="group" aria-label="Filter products by category">
-          <button class="filter-chip" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button class="filter-chip" type="button" data-filter="apparel" aria-pressed="false">Apparel</button>
-          <button class="filter-chip" type="button" data-filter="home" aria-pressed="false">Home</button>
-          <button class="filter-chip" type="button" data-filter="stationery" aria-pressed="false">Stationery</button>
-          <button class="filter-chip" type="button" data-filter="gifts" aria-pressed="false">Gifts</button>
-        </div>
-        <p id="filter-status" class="visually-hidden" aria-live="polite"></p>
-
-        <ul class="product-grid">
-          <li class="product-card card reveal" data-category="apparel gifts" style="--tint:#F6E7CC" data-long="Soft, breathable cotton tees with crisp, long-lasting prints. Choose a Karmyx original or add your own name, text or artwork.">
-            <div class="product-media">
-              <span class="product-tag">Featured</span>
-              <img src="assets/images/products/product-tee.svg" alt="Cream t-shirt with a rising sun print and the words Do Good Work" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Tees</h3>
-              <p class="product-desc">Everyday cotton tees with original prints.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="apparel" style="--tint:#DCDDF0;--delay:.05s" data-long="Cosy fleece hoodies for cool evenings and long journeys. Personalise the front, back or sleeve.">
-            <div class="product-media">
-              <img src="assets/images/products/product-hoodie.svg" alt="Midnight blue hoodie with a Keep Going print" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Hoodies</h3>
-              <p class="product-desc">Warm, cosy and made to be lived in.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="home gifts" style="--tint:#D3F1EE;--delay:.1s" data-long="Glossy ceramic mugs, printed edge to edge. A thoughtful gift for colleagues, friends and family.">
-            <div class="product-media">
-              <img src="assets/images/products/product-mug.svg" alt="Teal ceramic mug with a Morning Karma print" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Mugs</h3>
-              <p class="product-desc">Ceramic mugs for your morning chai.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="apparel gifts" style="--tint:#F1E9DA;--delay:.15s" data-long="Sturdy canvas totes for groceries, books and everything in between. Great for events and brand giveaways.">
-            <div class="product-media">
-              <img src="assets/images/products/product-tote.svg" alt="Natural canvas tote bag with a Carry Kindness print" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Tote bags</h3>
-              <p class="product-desc">Reusable canvas, carried everywhere.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="stationery gifts" style="--tint:#FBE3BD" data-long="Hardcover notebooks with your design on the cover. Ruled, plain or dotted pages for ideas and plans.">
-            <div class="product-media">
-              <img src="assets/images/products/product-notebook.svg" alt="Saffron hardcover notebook titled Ideas and Actions" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Notebooks</h3>
-              <p class="product-desc">For ideas, plans and to-do lists.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="home" style="--tint:#FCE9CF;--delay:.05s" data-long="Museum-style posters and framed wall art with original Karmyx illustrations. Bring calm, colour and intent to your space.">
-            <div class="product-media">
-              <img src="assets/images/products/product-poster.svg" alt="Framed poster of a sunrise over hills titled Rise and Shine" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Posters &amp; wall art</h3>
-              <p class="product-desc">Original art for walls that inspire.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="gifts" style="--tint:#D6F0EC;--delay:.1s" data-long="Slim, protective cases with vivid prints. Available for popular phone models. Add your name or photo.">
-            <div class="product-media">
-              <img src="assets/images/products/product-phonecase.svg" alt="Teal phone case with saffron and midnight geometric circles" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Phone cases</h3>
-              <p class="product-desc">Protection with personality.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="gifts" style="--tint:#E2E3F3;--delay:.15s" data-long="Curated gift boxes that combine mugs, notebooks, tees and more. Ideal for birthdays, festivals, onboarding kits and thank-yous.">
-            <div class="product-media">
-              <span class="product-tag">Great for teams</span>
-              <img src="assets/images/products/product-giftbox.svg" alt="Midnight gift box tied with a saffron ribbon" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Gift sets</h3>
-              <p class="product-desc">Curated boxes for every occasion.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="stationery" style="--tint:#FDF0D8" data-long="Waterproof vinyl stickers for laptops, bottles and journals. Mix and match, or make a custom pack.">
-            <div class="product-media">
-              <img src="assets/images/products/product-stickers.svg" alt="Sticker sheet with sun, star, tick and Made in India stickers" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Stickers</h3>
-              <p class="product-desc">Little things that say a lot.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="apparel" style="--tint:#FBE5C2;--delay:.05s" data-long="Classic six-panel caps with embroidered or printed designs. Adjustable fit for everyday wear.">
-            <div class="product-media">
-              <img src="assets/images/products/product-cap.svg" alt="Saffron cap with a midnight brim and a small sun badge" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Caps</h3>
-              <p class="product-desc">Sun-ready, style-ready.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="home" style="--tint:#D3F1EE;--delay:.1s" data-long="Soft, printed cushion covers that add colour and calm to sofas, beds and reading corners. Insert optional.">
-            <div class="product-media">
-              <img src="assets/images/products/product-cushion.svg" alt="Teal cushion with a sunrise print and the words Home Is Calm" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Cushion covers</h3>
-              <p class="product-desc">Cosy corners, made personal.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-          <li class="product-card card reveal" data-category="home gifts" style="--tint:#FBE3BD;--delay:.15s" data-long="Insulated steel bottles that keep drinks cool for hours. Printed with your name or a Karmyx original.">
-            <div class="product-media">
-              <img src="assets/images/products/product-bottle.svg" alt="Saffron steel water bottle with a Stay Kind print" width="400" height="400" loading="lazy">
-              <button class="quick-view" type="button">Quick view</button>
-            </div>
-            <div class="product-body">
-              <h3>Water bottles</h3>
-              <p class="product-desc">Stay hydrated, stay kind.</p>
-              <div class="product-foot"><span class="price">Sample design</span><a class="btn btn--dark btn--sm" href="#contact">Enquire</a></div>
-            </div>
-          </li>
-        </ul>
-
-        <div class="products-cta reveal">
-          <a class="btn btn--primary" href="#contact">Request a custom design<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <!-- Story -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="wrap story-grid">
+        <h2 id="story-title" class="display display--lg">Karma means action.</h2>
+        <div class="story-copy">
+          <p class="lead">Karmyx started in Rudrapur with one rule: put in the work and let it show. Every design is drawn by us. Every piece is printed for one person, after they order it.</p>
+          <p>No warehouse of unsold stock, no fake sales countdown. Just a few good designs, released in drops, made to be worn hard.</p>
         </div>
       </div>
     </section>
 
-    <!-- Quick view dialog -->
-    <dialog class="qv-dialog" id="quick-view" aria-labelledby="qv-title">
-      <div class="qv-inner">
-        <div class="qv-media"><img src="assets/images/products/product-tee.svg" alt="" width="400" height="400"></div>
-        <div class="qv-body">
-          <p class="eyebrow">Quick view</p>
-          <h3 id="qv-title">Product</h3>
-          <p class="qv-desc"></p>
-          <ul>
-            <li>Sample design: customise colours, text and size</li>
-            <li>Personalise with names, text or photos</li>
-            <li>Ships across India</li>
-          </ul>
-          <p class="price qv-price"></p>
-          <a class="btn btn--primary" href="#contact" data-close>Ask about this design<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-        </div>
-      </div>
-      <button class="icon-btn qv-close" type="button" data-close aria-label="Close quick view">
-        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
-      </button>
-    </dialog>
-
-    <!-- ===================== Lifestyle gallery ===================== -->
-    <section class="section" aria-labelledby="gallery-title">
-      <div class="container">
-        <div class="section-head section-head--center reveal">
-          <p class="eyebrow">Made for real life</p>
-          <h2 id="gallery-title">From our printer to your everyday</h2>
-          <p>Thoughtful products that fit into your mornings, your work and your gifting.</p>
-        </div>
-        <ul class="gallery">
-          <li class="reveal"><figure><img src="assets/images/photos/life-tee-480.webp" srcset="assets/images/photos/life-tee-480.webp 480w, assets/images/photos/life-tee-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Person wearing a plain white t-shirt" width="480" height="600" loading="lazy"><figcaption>Tees</figcaption></figure></li>
-          <li class="reveal" style="--delay:.06s"><figure><img src="assets/images/photos/life-mug-480.webp" srcset="assets/images/photos/life-mug-480.webp 480w, assets/images/photos/life-mug-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="White ceramic mug on a clean table" width="480" height="600" loading="lazy"><figcaption>Mugs</figcaption></figure></li>
-          <li class="reveal" style="--delay:.12s"><figure><img src="assets/images/photos/life-hoodie-480.webp" srcset="assets/images/photos/life-hoodie-480.webp 480w, assets/images/photos/life-hoodie-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Person in a grey hoodie seen from behind" width="480" height="600" loading="lazy"><figcaption>Hoodies</figcaption></figure></li>
-          <li class="reveal" style="--delay:.18s"><figure><img src="assets/images/photos/life-desk-480.webp" srcset="assets/images/photos/life-desk-480.webp 480w, assets/images/photos/life-desk-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Desk with a notebook, coffee and laptop" width="480" height="600" loading="lazy"><figcaption>Stationery</figcaption></figure></li>
-          <li class="reveal" style="--delay:.24s"><figure><img src="assets/images/photos/life-tote-480.webp" srcset="assets/images/photos/life-tote-480.webp 480w, assets/images/photos/life-tote-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Brown canvas tote bag hanging on a wall" width="480" height="600" loading="lazy"><figcaption>Totes</figcaption></figure></li>
-          <li class="reveal" style="--delay:.3s"><figure><img src="assets/images/photos/life-home-480.webp" srcset="assets/images/photos/life-home-480.webp 480w, assets/images/photos/life-home-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Bright, minimal living room with a plant and lamp" width="480" height="600" loading="lazy"><figcaption>Home décor</figcaption></figure></li>
-          <li class="reveal" style="--delay:.36s"><figure><img src="assets/images/photos/life-packaging-480.webp" srcset="assets/images/photos/life-packaging-480.webp 480w, assets/images/photos/life-packaging-960.webp 960w" sizes="(min-width: 1024px) 160px, 260px" alt="Two plain kraft cardboard boxes ready to ship" width="480" height="600" loading="lazy"><figcaption>Packaging</figcaption></figure></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ===================== How it works ===================== -->
-    <section class="section section--alt" id="how-it-works" aria-labelledby="how-title">
-      <div class="container">
-        <div class="section-head section-head--center reveal">
-          <p class="eyebrow">How it works</p>
-          <h2 id="how-title">Four simple steps to something that's yours</h2>
-          <p>No minimum order, no warehouse full of unsold stock. Just your idea, printed with care.</p>
-        </div>
+    <!-- How an order works (a real sequence) -->
+    <section class="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <h2 id="process-title" class="display display--sm">From your order to your door</h2>
         <ol class="steps">
-          <li class="step reveal">
-            <div class="step-icon"><svg aria-hidden="true"><use href="#i-grid"/></svg></div>
-            <h3>Pick a design</h3>
-            <p>Choose a Karmyx original or share your own idea with us.</p>
-          </li>
-          <li class="step reveal" style="--delay:.1s">
-            <div class="step-icon"><svg aria-hidden="true"><use href="#i-sliders"/></svg></div>
-            <h3>Personalise it</h3>
-            <p>Add a name, a message or your own photo. We share a preview first.</p>
-          </li>
-          <li class="step reveal" style="--delay:.2s">
-            <div class="step-icon"><svg aria-hidden="true"><use href="#i-printer"/></svg></div>
-            <h3>We print on demand</h3>
-            <p>Your order is printed fresh and quality-checked by hand.</p>
-          </li>
-          <li class="step reveal" style="--delay:.3s">
-            <div class="step-icon"><svg aria-hidden="true"><use href="#i-truck"/></svg></div>
-            <h3>Delivered to your door</h3>
-            <p>Packed with care and shipped to pin codes across India.</p>
-          </li>
+          <li><span class="step-n" aria-hidden="true">1</span><h3>You order</h3><p>Pick a design, colour and size on the shop.</p></li>
+          <li><span class="step-n" aria-hidden="true">2</span><h3>We print it</h3><p>Your tee is printed fresh and checked, usually in 2 to 4 working days.</p></li>
+          <li><span class="step-n" aria-hidden="true">3</span><h3>It ships</h3><p>Tracked delivery to pin codes across India, usually 3 to 7 working days.</p></li>
         </ol>
       </div>
     </section>
 
-    <!-- ===================== Services ===================== -->
-    <section class="section" id="services" aria-labelledby="services-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Design &amp; software studio</p>
-          <h2 id="services-title">We also build things for the web</h2>
-          <p>From artwork to apps, we help creators and small businesses look good, work smarter and sell online.</p>
+    <!-- Bulk -->
+    <section class="bulk" aria-labelledby="bulk-title">
+      <div class="wrap"><div class="bulk-inner">
+        <div>
+          <h2 id="bulk-title" class="display display--sm">Tees for your crew</h2>
+          <p>College fests, teams, events. Send us your design or let us draw one. No minimum order.</p>
         </div>
-        <ul class="services-grid">
-          <li class="reveal">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-design-480.webp" srcset="assets/images/photos/service-design-480.webp 480w, assets/images/photos/service-design-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Hand sketching a design layout with a pen" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-pen"/></svg></span>
-                <h3>Custom design &amp; artwork</h3>
-                <p>Original illustrations, logos, merch artwork, templates and digital products, made to your brief.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-          <li class="reveal" style="--delay:.08s">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-web-480.webp" srcset="assets/images/photos/service-web-480.webp 480w, assets/images/photos/service-web-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Website wireframes pinned to a wall" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-code"/></svg></span>
-                <h3>Websites &amp; web apps</h3>
-                <p>Fast, mobile-first websites, web and mobile apps, and SaaS products built to grow with you.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-          <li class="reveal" style="--delay:.16s">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-ai-480.webp" srcset="assets/images/photos/service-ai-480.webp 480w, assets/images/photos/service-ai-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Engineer with a laptop in a server room" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-bot"/></svg></span>
-                <h3>AI &amp; automation tools</h3>
-                <p>Chatbots, smart workflows and automations that save hours of repetitive work every week.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-          <li class="reveal">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-ecommerce-480.webp" srcset="assets/images/photos/service-ecommerce-480.webp 480w, assets/images/photos/service-ecommerce-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Smartphone showing an online shopping app" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-cart"/></svg></span>
-                <h3>E-commerce setup &amp; support</h3>
-                <p>Store setup, product listings, payments and marketplace onboarding, done right the first time.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-          <li class="reveal" style="--delay:.08s">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-marketing-480.webp" srcset="assets/images/photos/service-marketing-480.webp 480w, assets/images/photos/service-marketing-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Laptop displaying marketing analytics charts" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-megaphone"/></svg></span>
-                <h3>Digital marketing</h3>
-                <p>Social content, SEO and simple campaigns that bring the right people to your door.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-          <li class="reveal" style="--delay:.16s">
-            <article class="service-card card">
-              <div class="service-media"><img src="assets/images/photos/service-consulting-480.webp" srcset="assets/images/photos/service-consulting-480.webp 480w, assets/images/photos/service-consulting-960.webp 960w" sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" alt="Small team discussing work around a desk" width="480" height="320" loading="lazy"></div>
-              <div class="service-body">
-                <span class="icon-badge"><svg aria-hidden="true"><use href="#i-compass"/></svg></span>
-                <h3>IT consulting</h3>
-                <p>Clear, practical advice on tools, cloud and tech choices, without the jargon.</p>
-                <a class="link-arrow" href="#contact">Talk to us<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              </div>
-            </article>
-          </li>
-        </ul>
-      </div>
+        <a class="btn btn--primary" href="mailto:karmyxbusiness@gmail.com?subject=Custom%20order%20enquiry">Email us your idea</a>
+      </div></div>
     </section>
 
-    <!-- ===================== Custom & bulk orders ===================== -->
-    <section class="section section--alt" aria-labelledby="bulk-title">
-      <div class="container">
-        <div class="bulk reveal">
-          <div class="bulk-copy">
-            <p class="eyebrow">Custom &amp; bulk orders</p>
-            <h2 id="bulk-title">Gifts your team will actually keep</h2>
-            <p>Branded merch and personalised gift sets for offices, events, colleges, weddings and celebrations. Tell us what you have in mind and we'll handle design, printing and delivery.</p>
-            <ul class="bulk-list">
-              <li>Corporate gifting</li><li>Events &amp; fests</li><li>Team tees</li><li>Welcome kits</li><li>Personalised gifts</li>
-            </ul>
-            <div class="bulk-ctas">
-              <a class="btn btn--primary" href="#contact">Get a quote<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-              <a class="btn btn--outline-light" href="#shop">Browse sample designs</a>
-            </div>
-          </div>
-          <div class="bulk-media">
-            <img src="assets/images/photos/bulk-gifts-720.webp" srcset="assets/images/photos/bulk-gifts-720.webp 720w, assets/images/photos/bulk-gifts-1440.webp 1440w" sizes="(min-width: 900px) 520px, 100vw" alt="Dark gift boxes tied with gold ribbons" width="720" height="720" loading="lazy">
-          </div>
+    <!-- Game -->
+    <section class="play" id="play" aria-labelledby="play-title">
+      <div class="wrap play-inner">
+        <img src="assets/images/infiltrators-art.svg" alt="" width="800" height="500" loading="lazy">
+        <div>
+          <h2 id="play-title" class="display display--sm">Play Mafia</h2>
+          <p>Our browser game for friend groups. Find the mafia hiding among you before night falls, or blend in and outwit everyone.</p>
+          <a class="btn btn--quiet" href="https://www.game.karmyx.co.in" data-config-href="GAME_URL" target="_blank" rel="noopener">Start a game<span class="visually-hidden"> (opens in a new tab)</span></a>
         </div>
       </div>
     </section>
 
-    <!-- ===================== Labs / Play ===================== -->
-    <section class="section" id="play" aria-labelledby="play-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Karmyx Labs</p>
-          <h2>Things we build for fun</h2>
-          <p>Our playground for ideas. Some become products, all of them teach us something.</p>
+    <!-- FAQ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-grid">
+        <div>
+          <h2 id="faq-title" class="display display--sm">Help</h2>
+          <p>Still stuck? Email <a href="mailto:karmyxbusiness@gmail.com" data-config-href="EMAIL" data-config-text="EMAIL">karmyxbusiness@gmail.com</a> or call <a href="tel:+916397604558">+91&nbsp;63976&nbsp;04558</a>. We reply within 1 to 2 working days.</p>
         </div>
-        <article class="labs reveal">
-          <div class="labs-art"><img src="assets/images/infiltrators-art.svg" alt="" width="800" height="500" loading="lazy"></div>
-          <div class="labs-copy">
-            <p class="labs-tag"><svg width="16" height="16" aria-hidden="true"><use href="#i-mask"/></svg>Multiplayer game</p>
-            <h2 id="play-title">Mafia Game</h2>
-            <p>Trust no one. A social-deduction game for friends: find the mafia hiding among you before night falls, or blend in and outwit everyone.</p>
-            <ul class="labs-meta">
-              <li><svg aria-hidden="true"><use href="#i-users"/></svg>Play with friends</li>
-              <li><svg aria-hidden="true"><use href="#i-clock"/></svg>Quick rounds</li>
-              <li><svg aria-hidden="true"><use href="#i-code"/></svg>Runs in your browser</li>
-            </ul>
-            <a class="btn btn--play" href="https://www.game.karmyx.co.in" data-config-href="GAME_URL" target="_blank" rel="noopener">Play now<svg aria-hidden="true"><use href="#i-arrow"/></svg><span class="visually-hidden"> (opens in a new tab)</span></a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- ===================== About ===================== -->
-    <section class="section section--alt" id="about" aria-labelledby="about-title">
-      <div class="container about-grid">
-        <div class="about-media reveal">
-          <img src="assets/images/photos/about-team-640.webp" srcset="assets/images/photos/about-team-640.webp 640w, assets/images/photos/about-team-1280.webp 1280w" sizes="(min-width: 960px) 480px, 100vw" alt="Three people working together and smiling at a table with laptops" width="640" height="720" loading="lazy">
-          <p class="about-quote"><span aria-hidden="true">“</span>Do the work. Do it honestly. Keep going.</p>
-        </div>
-        <div class="reveal" style="--delay:.1s">
-          <p class="eyebrow">Our philosophy</p>
-          <h2 id="about-title">Karma means action.</h2>
-          <p class="lead">We believe in doing honest, useful work and building things that last. Karmyx is a small, focused company based in India, growing step by step, one good order and one happy customer at a time.</p>
-          <p>Whether it's a hoodie with your team's name, an illustration for your café, or the website that brings in your next customer, we care about the details and stand behind what we make.</p>
-          <ul class="values">
-            <li class="value card">
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
-              <h3>Craft</h3>
-              <p>Original designs and careful printing. Small details, done right.</p>
-            </li>
-            <li class="value card">
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-shield"/></svg></span>
-              <h3>Integrity</h3>
-              <p>Clear prices, honest timelines and no surprises.</p>
-            </li>
-            <li class="value card">
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-mountain"/></svg></span>
-              <h3>Perseverance</h3>
-              <p>We keep showing up, keep improving and keep going.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== What's next ===================== -->
-    <section class="section" aria-labelledby="next-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">What's next</p>
-          <h2 id="next-title">Growing step by step</h2>
-          <p>We're starting small and building carefully. Here's where the journey is heading.</p>
-        </div>
-        <ol class="timeline">
-          <li class="tl-item is-live reveal">
-            <span class="tl-status">Live today</span>
-            <h3>Personalised merchandise</h3>
-            <p>Print-on-demand apparel, mugs, gifts and décor.</p>
-          </li>
-          <li class="tl-item is-live reveal" style="--delay:.08s">
-            <span class="tl-status">Live today</span>
-            <h3>Design &amp; software studio</h3>
-            <p>Creative work, websites, apps and automation.</p>
-          </li>
-          <li class="tl-item is-now reveal" style="--delay:.16s">
-            <span class="tl-status">Coming soon</span>
-            <h3>Traditional foods</h3>
-            <p>Small-batch, home-style mangodi, made in-house with care.</p>
-          </li>
-          <li class="tl-item reveal" style="--delay:.24s">
-            <span class="tl-status">Later</span>
-            <h3>More, step by step</h3>
-            <p>New ideas, taken on only when we can do them well.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- ===================== FAQ ===================== -->
-    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
-      <div class="container faq-grid">
-        <div class="section-head reveal">
-          <p class="eyebrow">FAQ</p>
-          <h2 id="faq-title">Good questions, honest answers</h2>
-          <p>Can't find what you need? <a href="#contact">Send us a message</a> and we'll get back to you.</p>
-        </div>
-        <div class="faq-list reveal">
-          <details class="faq-item">
-            <summary>How long does delivery take?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Most orders are printed within 2–4 working days and then reach you in about 3–7 working days, depending on your location. You'll get tracking details once your order ships.</p></div>
+        <div class="faq-list">
+          <details>
+            <summary>Which size should I order?</summary>
+            <p>Both pieces are cut oversized. Take your usual size for the loose, dropped-shoulder look. Size down once if you want it closer to the body.</p>
           </details>
-          <details class="faq-item">
-            <summary>Do you ship across India?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Yes. We ship to most serviceable pin codes across India through trusted courier partners. If your pin code isn't serviceable, we'll let you know before you pay.</p></div>
+          <details>
+            <summary>How long does delivery take?</summary>
+            <p>Printing takes 2 to 4 working days, then delivery takes about 3 to 7 working days depending on your pin code. You get tracking once it ships.</p>
           </details>
-          <details class="faq-item">
-            <summary>What if my order arrives damaged or wrong?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>We'll make it right. Write to us within 7 days of delivery with your order number and a photo, and we'll arrange a free replacement or refund for damaged, defective or incorrect items. Personalised items can't be returned for change of mind. See <a href="shipping-returns.html">Shipping &amp; Returns</a>.</p></div>
+          <details>
+            <summary>Do you ship everywhere in India?</summary>
+            <p>We ship to most serviceable pin codes. If yours isn't covered, checkout will tell you before you pay.</p>
           </details>
-          <details class="faq-item">
-            <summary>Can I personalise a product with my own design?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Absolutely. Add names, text, photos or your own artwork. Please only upload content you have the rights to use. Need help? Our design team can create something original for you.</p></div>
+          <details>
+            <summary>What if it arrives damaged or wrong?</summary>
+            <p>Email us within 7 days of delivery with your order number and a photo, and we'll send a free replacement or refund. Details are on <a href="shipping-returns.html">Shipping and returns</a>.</p>
           </details>
-          <details class="faq-item">
-            <summary>Do you take bulk or corporate orders?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Yes. We handle team tees, event merch, welcome kits and corporate gift sets. Share your quantity, timeline and idea through the <a href="#contact">contact form</a> for a quote.</p></div>
+          <details>
+            <summary>How do I wash it?</summary>
+            <p>Inside out, cold water. Don't iron directly on the print and skip high-heat tumble drying. The print will hold its colour for a long time.</p>
           </details>
-          <details class="faq-item">
-            <summary>How can I pay?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>We accept secure online payments. Payment details are shared with your order confirmation or quote.</p></div>
-          </details>
-          <details class="faq-item">
-            <summary>How do I contact you?<span class="faq-icon" aria-hidden="true"></span></summary>
-            <div class="faq-answer"><p>Email us at <a href="mailto:karmyxbusiness@gmail.com" data-config-href="EMAIL" data-config-text="EMAIL">karmyxbusiness@gmail.com</a>, call <a href="tel:+916397604558">+91&nbsp;63976&nbsp;04558</a>, or use the contact form below. We usually reply within 1–2 working days.</p></div>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== Contact ===================== -->
-    <section class="section" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-grid">
-        <div class="reveal">
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Let's make something good together</h2>
-          <p class="lead">A custom order, a design idea, a website, or just a question: tell us a little about it and we'll reply within 1–2 working days.</p>
-          <ul class="contact-info">
-            <li>
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-mail"/></svg></span>
-              <div><small>Email</small><a href="mailto:karmyxbusiness@gmail.com" data-config-href="EMAIL" data-config-text="EMAIL">karmyxbusiness@gmail.com</a></div>
-            </li>
-            <li>
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
-              <div><small>Phone</small><a href="tel:+916397604558" data-config-href="PHONE" data-config-text="PHONE">+91&nbsp;63976&nbsp;04558</a></div>
-            </li>
-            <li>
-              <span class="icon-badge"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
-              <div><small>Based in</small><strong data-config-text="ADDRESS">Rudrapur, Uttarakhand, India</strong></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card form-card reveal" style="--delay:.1s">
-          <form id="contact-form" novalidate>
-            <div class="form-row form-row--2">
-              <div class="field">
-                <label for="f-name">Your name</label>
-                <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
-                <span class="field-error" id="e-name" aria-live="polite"></span>
-              </div>
-              <div class="field">
-                <label for="f-email">Email</label>
-                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email">
-                <span class="field-error" id="e-email" aria-live="polite"></span>
-              </div>
-            </div>
-            <div class="form-row form-row--2">
-              <div class="field">
-                <label for="f-phone">Phone <span class="opt">(optional)</span></label>
-                <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="e-phone">
-                <span class="field-error" id="e-phone" aria-live="polite"></span>
-              </div>
-              <div class="field">
-                <label for="f-interest">I'm interested in</label>
-                <select id="f-interest" name="interest" required aria-describedby="e-interest">
-                  <option value="">Choose one</option>
-                  <option>Shop</option>
-                  <option>Custom order</option>
-                  <option>Design</option>
-                  <option>Software</option>
-                  <option>Other</option>
-                </select>
-                <span class="field-error" id="e-interest" aria-live="polite"></span>
-              </div>
-            </div>
-            <div class="field">
-              <label for="f-message">Message</label>
-              <textarea id="f-message" name="message" rows="5" required aria-describedby="e-message" placeholder="Tell us about your idea, quantity and timeline…"></textarea>
-              <span class="field-error" id="e-message" aria-live="polite"></span>
-            </div>
-            <div class="hp" aria-hidden="true">
-              <label for="f-website">Leave this empty</label>
-              <input id="f-website" name="company_website" type="text" tabindex="-1" autocomplete="off">
-            </div>
-            <div class="form-foot">
-              <p class="form-note">We'll only use your details to reply to you. See our <a href="privacy.html">Privacy Policy</a>.</p>
-              <button class="btn btn--primary" type="submit"><span>Send message</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-            </div>
-            <p class="form-status" role="status" aria-live="polite"></p>
-          </form>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ===================== Footer ===================== -->
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <a class="brand" href="./" aria-label="Karmyx home">
-            <img src="assets/images/logo-mark-96.png" alt="" width="38" height="38">
-            <span class="brand-name">Karmyx</span>
-          </a>
-          <p class="footer-blurb">Personalised merchandise, original designs and software, made with care in India. Good work, done well.</p>
-          <ul class="socials">
-            <li><a href="https://instagram.com/" data-config-href="SOCIAL.instagram" data-hide-if-empty aria-label="Karmyx on Instagram" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
-            <li><a href="https://www.linkedin.com/" data-config-href="SOCIAL.linkedin" data-hide-if-empty aria-label="Karmyx on LinkedIn" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
-            <li><a href="https://x.com/" data-config-href="SOCIAL.x" data-hide-if-empty aria-label="Karmyx on X" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-x"/></svg></a></li>
-            <li><a href="https://www.youtube.com/" data-config-href="SOCIAL.youtube" data-hide-if-empty aria-label="Karmyx on YouTube" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Explore</h2>
-          <ul class="footer-links">
-            <li><a href="#shop">Designs</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#play">Play Mafia Game</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Company</h2>
-          <ul class="footer-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="mailto:karmyxbusiness@gmail.com" data-config-href="EMAIL">Email us</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Legal</h2>
-          <ul class="footer-links">
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Use</a></li>
-            <li><a href="shipping-returns.html">Shipping &amp; Returns</a></li>
-          </ul>
-        </div>
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="./" aria-label="Karmyx home"><img src="assets/images/logo-mark-96.png" alt="" width="34" height="34"><span>Karmyx</span></a>
+        <p>Streetwear from India, printed to order.</p>
+        <ul class="socials">
+          <li><a href="" data-config-href="SOCIAL.instagram" data-hide-if-empty aria-label="Karmyx on Instagram" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="" data-config-href="SOCIAL.linkedin" data-hide-if-empty aria-label="Karmyx on LinkedIn" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="" data-config-href="SOCIAL.x" data-hide-if-empty aria-label="Karmyx on X" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-x"/></svg></a></li>
+          <li><a href="" data-config-href="SOCIAL.youtube" data-hide-if-empty aria-label="Karmyx on YouTube" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+        </ul>
       </div>
-      <div class="footer-bottom">
-        <p>© <span data-year>2026</span> Karmyx. Made in India.</p>
-        <p class="footer-legal-ids"></p>
+      <div>
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="https://shop.karmyx.co.in/collections/the-first-drop">Drop 01</a></li>
+          <li><a href="https://shop.karmyx.co.in/products/unisex-oversized-classic-t-shirt">Mentalist</a></li>
+          <li><a href="https://shop.karmyx.co.in/products/unisex-oversized-jersey">Origin</a></li>
+        </ul>
       </div>
+      <div>
+        <h2>Karmyx</h2>
+        <ul>
+          <li><a href="./#story">Story</a></li>
+          <li><a href="./#faq">Help</a></li>
+          <li><a href="https://www.game.karmyx.co.in" data-config-href="GAME_URL">Mafia game</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="shipping-returns.html">Shipping and returns</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© <span data-year>2026</span> Karmyx. Made in India.</p>
+      <p class="footer-legal-ids"></p>
     </div>
   </footer>
 

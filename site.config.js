@@ -1,38 +1,26 @@
 /**
- * Karmyx site configuration.
- * Edit the values here; every page reads links and contact details from this file.
- * Elements opt in with data attributes (see assets/js/main.js):
+ * Karmyx site configuration. Every page reads these values.
  *   data-config-href="STORE_URL"   -> sets href
- *   data-config-text="EMAIL"       -> sets text content
+ *   data-config-text="EMAIL"       -> sets text
  */
 window.SITE_CONFIG = {
   SITE_URL: "https://karmyx.co.in",
+  STORE_URL: "https://shop.karmyx.co.in",       // Shopify store
+  GAME_URL: "https://www.game.karmyx.co.in",    // Mafia game on Render
 
-  // Online store (not live yet; the site is a showcase for now and does not link here)
-  STORE_URL: "https://store.karmyx.co.in",
-
-  // Mafia Game (hosted on Render)
-  GAME_URL: "https://www.game.karmyx.co.in",
-
-  // Contact
   EMAIL: "karmyxbusiness@gmail.com",
-  PHONE: "+91\u00A063976\u00A004558", // \u00A0 = non-breaking space
+  PHONE: "+91\u00A063976\u00A004558",
   ADDRESS: "Rudrapur, Uttarakhand, India",
 
-  // Contact form endpoint (e.g. "https://formspree.io/f/xxxxxxx").
-  // Leave empty to fall back to opening the visitor's email app (mailto:).
-  FORM_ENDPOINT: "",
-
-  // Social profiles (leave a value empty to hide that icon)
+  // Footer social icons. An empty value hides the icon.
   SOCIAL: {
-    instagram: "https://instagram.com/",
-    linkedin: "https://www.linkedin.com/",
-    x: "https://x.com/",
-    youtube: "https://www.youtube.com/",
+    instagram: "",   // e.g. "https://instagram.com/karmyx.in"
+    linkedin: "",
+    x: "",
+    youtube: "",
   },
 
-  // Legal details: incorporation is in progress.
-  // Rendered in the footer ONLY when filled in. Do not guess these.
-  LEGAL_NAME_PLACEHOLDER: "Karmyx (OPC) Pvt. Ltd.",
-  GSTIN_PLACEHOLDER: "xxx",   // replace with the real GSTIN once issued
+  // Shown in the footer only when filled in. Fill after incorporation / GST registration.
+  LEGAL_NAME: "",    // e.g. "Karmyx (OPC) Private Limited"
+  GSTIN: "",
 };
