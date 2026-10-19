@@ -55,7 +55,7 @@
   var ctaColour = cta.querySelector(".cta-colour");
   var swatches = Array.prototype.slice.call(group.querySelectorAll(".swatch"));
   var base = (cfg.STORE_URL || "https://shop.karmyx.co.in") + "/products/unisex-oversized-classic-t-shirt?variant=";
-  var dir = "assets/images/drop01/mentalist-";
+  var dir = "assets/images/products/mentalist-";
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // Warm the cache so swapping feels instant

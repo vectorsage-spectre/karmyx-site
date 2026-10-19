@@ -5,7 +5,7 @@ The brand home for **Karmyx** ([karmyx.co.in](https://karmyx.co.in)), an Indian 
 Plain **HTML, CSS and vanilla JS**. No build step, nothing to install.
 
 ```
-index.html              Home: Mentalist colour wall, Drop 01, story, how an order works,
+index.html              Home: Mentalist colour wall, T-shirts, story, how an order works,
                         custom/bulk orders, Mafia game, help/FAQ
 privacy.html            Privacy Policy (DRAFT)
 terms.html              Terms of Use (DRAFT)
@@ -14,7 +14,7 @@ shipping-returns.html   Shipping & Returns (DRAFT)
 site.config.js          ← links, contact details, socials, legal IDs
 assets/css/styles.css   All styles (one design system for every page)
 assets/js/main.js       Config links, mobile menu, colour wall
-assets/images/drop01/   Product cutouts (WebP, transparent)
+assets/images/products/ Product cutouts (WebP, transparent)
 CNAME                   karmyx.co.in (keep this file)
 ```
 
@@ -29,7 +29,7 @@ python3 -m http.server 8000
 
 The hero shows the Mentalist tee in 16 colours. Clicking a swatch swaps the photo and the background tint, and points the "Shop Mentalist in …" button at that exact Shopify variant (`?variant=<id>`). Arrow keys move between swatches.
 
-**Add a colour or product:** export a transparent cutout about 600px wide as `-480.webp` and `-900.webp`, put it in `assets/images/drop01/`, then add a `<button class="swatch">` in `index.html` with `data-name`, `data-slug`, `data-variant` (Shopify variant ID) and `--c` (fabric colour).
+**Add a colour or product:** export a transparent cutout about 600px wide as `-480.webp` and `-900.webp`, put it in `assets/images/products/`, then add a `<button class="swatch">` in `index.html` with `data-name`, `data-slug`, `data-variant` (Shopify variant ID) and `--c` (fabric colour).
 
 ## Edit links and details
 
